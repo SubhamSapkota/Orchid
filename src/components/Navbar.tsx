@@ -54,8 +54,8 @@ const Navbar = () => {
               className="h-10 w-10 rounded-lg shadow-md object-cover" />
               </span>
               <span className="text-2xl font-bold text-red-700">Orchid</span>
-              <span className="text-2xl font-bold text-gray-900 ml-1">English</span>
-              <span className="text-2xl font-bold text-gray-900 ml-1">Secondary School</span>
+              {/* <span className="text-2xl font-bold text-gray-900 ml-1">English</span>
+              <span className="text-2xl font-bold text-gray-900 ml-1">Secondary School</span> */}
             </Link>
           </div>
 
