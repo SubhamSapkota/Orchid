@@ -32,7 +32,7 @@ const Home = () => {
                 </span>
                 <br />
                 <span className="bg-gradient-to-r from-orange-200 via-white to-orange-200 bg-clip-text text-transparent animate-pulse">
-                  Orchid Secondary School
+                  Orchid English Secondary School
                 </span>
               </h1>
             </div>

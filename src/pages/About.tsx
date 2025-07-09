@@ -31,7 +31,7 @@ const About = () => {
                 </span>
                 <br />
                 <span className="bg-gradient-to-r from-orange-200 via-white to-orange-200 bg-clip-text text-transparent">
-                  Orchid Secondary School
+                  Orchid English Secondary School
                 </span>
               </h1>
             </div>
@@ -417,7 +417,7 @@ const About = () => {
               </span>
             </h2>
             <p className="text-2xl text-orange-100 mb-4 font-light">
-              Become part of the Orchid Secondary School family
+              Become part of the Orchid English Secondary School family
             </p>
             <p className="text-lg text-white/80 max-w-3xl mx-auto leading-relaxed">
               Experience excellence in education and join thousands of successful alumni who have transformed their lives through quality education.
