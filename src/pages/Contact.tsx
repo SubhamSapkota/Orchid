@@ -176,26 +176,35 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Map Section */}
-      <div className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Find Us</h2>
-            <p className="text-lg text-gray-600">Visit our campus and experience our facilities firsthand</p>
+
+      {/* Map Container */}
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+             <div className="text-center mb-3">
+            <h2 className="text-3xl font-bold text-gray-900 mb-3">Find Us</h2>
+            <p className="text-lg text-gray-600">Visit our <span className = "text-2xl font-bold text-orange-600">School</span> and experience our facilities firsthand</p>
           </div>
-          
-          <div className="bg-gray-200 h-96 rounded-lg flex items-center justify-center">
-            <div className="text-center">
-              <svg className="w-16 h-16 text-gray-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="relative w-full text-center">
+               <svg className="w-16 h-16 text-gray-400 mx-auto mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
-              <p className="text-gray-500">Interactive map would be embedded here</p>
-              <p className="text-sm text-gray-400 mt-2">Harion-11, Sarlahi, Nepal</p>
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.056732091041!2d85.55074677532541!3d27.09129505083834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ec81cfe4dfe307%3A0x200fb0b189d15135!2sOrchid%20Boarding%20English%20School!5e0!3m2!1sen!2snp!4v1752063225598!5m2!1sen!2snp"
+                className="w-full h-[300px] sm:h-[400px] md:h-[450px] lg:h-[500px] border-0"
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Orchid Boarding English School Location"
+                style={{ border: 0 }}
+              />
+            </div>
+            <div className="p-4 bg-gray-60 border-t">
+              <p className="text-m text-gray-600 text-center">
+               
+                Harion-11, Sarlahi, Nepal
+              </p>
             </div>
           </div>
-        </div>
-      </div>
 
       {/* CTA Section */}
       <div className="py-16 bg-gradient-to-r from-orange-600 to-orange-800">

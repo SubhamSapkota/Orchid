@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
@@ -47,14 +48,16 @@ const Home = () => {
             </div>
             
             <div className="animate-fade-in-up animation-delay-600">
-              <button className="group relative bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-12 py-4 rounded-full text-lg font-semibold transition-all duration-500 shadow-2xl hover:shadow-orange-500/25 transform hover:-translate-y-2 hover:scale-105">
+             <Link to="/courses"> <button className="group relative bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-12 py-4 rounded-full text-lg font-semibold transition-all duration-500 shadow-2xl hover:shadow-orange-500/25 transform hover:-translate-y-2 hover:scale-105">
                 <span className="relative z-10">Discover Our Programs</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="absolute -inset-1 bg-gradient-to-r from-orange-400 to-orange-600 rounded-full blur opacity-30 group-hover:opacity-60 transition-opacity duration-300"></div>
               </button>
+              </Link>
             </div>
           </div>
         </div>
+        
         
         {/* Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
@@ -316,15 +319,18 @@ const Home = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <button className="group relative bg-white text-orange-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all duration-500 shadow-2xl hover:shadow-white/25 transform hover:-translate-y-2 hover:scale-105">
+            <Link to="/admission"><button className="group relative bg-white text-orange-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all duration-500 shadow-2xl hover:shadow-white/25 transform hover:-translate-y-2 hover:scale-105">
               <span className="relative z-10">Apply Now</span>
               <div className="absolute inset-0 bg-gradient-to-r from-orange-100 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </button>
+            </Link>
             
+            <Link to="/contact">
             <button className="group relative border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-orange-600 transition-all duration-500 transform hover:-translate-y-2 hover:scale-105">
               <span className="relative z-10">Schedule a Visit</span>
               <div className="absolute inset-0 bg-white/10 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </button>
+            </Link>
           </div>
         </div>
       </div>
