@@ -47,11 +47,11 @@ const Navbar = () => {
             <Link to="/" className="flex-shrink-0 flex items-center">
             
                {/* Logo */}
-          <span className="flex items-center space-x-2">
+          <span className="flex items-center space-x-1  ">
             <img 
-              src="/public/Orchid Logo New.png" 
+              src="/Orchid Logo New.png" 
               alt="Logo" 
-              className="h-13 w-12 rounded-lg shadow-md object-cover" />
+              className="h-16 w-18 rounded-lg shadow-md object-cover" />
               </span>
               {/* <span className="text-2xl font-bold text-red-700">Orchid</span> */}
               {/* <span className="text-2xl font-bold text-gray-900 ml-1">English</span>
@@ -67,8 +67,8 @@ const Navbar = () => {
                 to={link.path}
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${
                   isActive(link.path)
-                    ? 'text-orange-600 bg-orange-50'
-                    : 'text-gray-700 hover:text-orange-600 hover:bg-orange-50'
+                    ? 'text-yellow-600 bg-yellow-50'
+                    : 'text-gray-700 hover:text-yellow-600 hover:bg-yellow-50'
                 }`}
               >
                 {link.name}
@@ -84,8 +84,8 @@ const Navbar = () => {
               <button
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 flex items-center ${
                   isActive('/courses') || isActive('/secondary-courses') || isActive('/plus-two-courses')
-                    ? 'text-orange-600 bg-orange-50'
-                    : 'text-gray-700 hover:text-orange-600 hover:bg-orange-50'
+                    ? 'text-yellow-600 bg-yellow-50'
+                    : 'text-gray-700 hover:text-yellow-600 hover:bg-yellow-50'
                 }`}
               >
                 Courses
@@ -114,21 +114,21 @@ const Navbar = () => {
                 <div className="py-1">
                   <Link
                     to="/courses"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-50 hover:text-orange-600 transition-colors duration-200"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-yellow-50 hover:text-yellow-600 transition-colors duration-200"
                     onClick={() => setIsCoursesOpen(false)}
                   >
                     All Courses
                   </Link>
                   <Link
                     to="/secondary-courses"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-50 hover:text-orange-600 transition-colors duration-200"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-yellow-50 hover:text-yellow-600 transition-colors duration-200"
                     onClick={() => setIsCoursesOpen(false)}
                   >
                     Secondary Courses
                   </Link>
                   <Link
                     to="/plus-two-courses"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-50 hover:text-orange-600 transition-colors duration-200"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-yellow-50 hover:text-yellow-600 transition-colors duration-200"
                     onClick={() => setIsCoursesOpen(false)}
                   >
                     +2 Courses
@@ -143,8 +143,8 @@ const Navbar = () => {
                 to={link.path}
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${
                   isActive(link.path)
-                    ? 'text-orange-600 bg-orange-50'
-                    : 'text-gray-700 hover:text-orange-600 hover:bg-orange-50'
+                    ? 'text-yellow-600 bg-yellow-50'
+                    : 'text-gray-700 hover:text-yellow-600 hover:bg-yellow-50'
                 }`}
               >
                 {link.name}
@@ -156,7 +156,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-orange-600 hover:bg-orange-50 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-orange-500"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-yellow-600 hover:bg-yellow-50 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-yellow-500"
             >
               <svg
                 className={`${isOpen ? 'hidden' : 'block'} h-6 w-6`}
@@ -191,8 +191,8 @@ const Navbar = () => {
                 to={link.path}
                 className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 ${
                   isActive(link.path)
-                    ? 'text-orange-600 bg-orange-50'
-                    : 'text-gray-700 hover:text-orange-600 hover:bg-orange-50'
+                    ? 'text-yellow-600 bg-yellow-50'
+                    : 'text-gray-700 hover:text-yellow-600 hover:bg-yellow-50'
                 }`}
                 onClick={() => setIsOpen(false)}
               >
@@ -204,21 +204,21 @@ const Navbar = () => {
             <div className="space-y-1">
               <Link
                 to="/courses"
-                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-orange-600 hover:bg-orange-50 transition-colors duration-200"
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-yellow-600 hover:bg-yellow-50 transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
                 All Courses
               </Link>
               <Link
                 to="/secondary-courses"
-                className="block px-3 py-2 pl-6 rounded-md text-base font-medium text-gray-600 hover:text-orange-600 hover:bg-orange-50 transition-colors duration-200"
+                className="block px-3 py-2 pl-6 rounded-md text-base font-medium text-gray-600 hover:text-yellow-600 hover:bg-yellow-50 transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
                 Secondary Courses
               </Link>
               <Link
                 to="/plus-two-courses"
-                className="block px-3 py-2 pl-6 rounded-md text-base font-medium text-gray-600 hover:text-orange-600 hover:bg-orange-50 transition-colors duration-200"
+                className="block px-3 py-2 pl-6 rounded-md text-base font-medium text-gray-600 hover:text-yellow-600 hover:bg-yellow-50 transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
                 +2 Courses
@@ -231,8 +231,8 @@ const Navbar = () => {
                 to={link.path}
                 className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 ${
                   isActive(link.path)
-                    ? 'text-orange-600 bg-orange-50'
-                    : 'text-gray-700 hover:text-orange-600 hover:bg-orange-50'
+                    ? 'text-yellow-600 bg-yellow-50'
+                    : 'text-gray-700 hover:text-yellow-600 hover:bg-yellow-50'
                 }`}
                 onClick={() => setIsOpen(false)}
               >

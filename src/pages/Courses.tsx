@@ -86,7 +86,7 @@ const Courses = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section with Background Image */}
-      <div className="relative h-96 bg-gradient-to-r from-orange-600 to-orange-800 overflow-hidden">
+      <div className="relative h-96 bg-gradient-to-r from-red-600 to-red-800 overflow-hidden">
         <img 
           src="https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
           alt="Students in classroom" 
@@ -95,10 +95,10 @@ const Courses = () => {
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <div className="relative z-10 flex items-center justify-center h-full text-center px-4">
           <div className="max-w-4xl">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold text-yellow-500 mb-4">
               Our Academic Programs
             </h1>
-            <p className="text-xl text-orange-100 max-w-3xl mx-auto">
+            <p className="text-xl text-red-100 max-w-3xl mx-auto">
               Comprehensive educational programs designed to nurture academic excellence and prepare students for future success
             </p>
           </div>
@@ -109,7 +109,7 @@ const Courses = () => {
       <div className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Academic Excellence</h2>
+            <h2 className="text-4xl font-bold text-red-700 mb-6">Academic Excellence</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
               We offer a range of courses from secondary to higher secondary level, each designed to provide 
               students with the knowledge, skills, and values needed for their chosen career paths.
@@ -142,7 +142,7 @@ const Courses = () => {
                   
                   <div className="mb-6">
                     <h4 className="font-semibold text-gray-900 mb-4 flex items-center">
-                      <svg className="w-5 h-5 text-orange-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-5 h-5 text-red-800 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                       </svg>
                       Core Subjects
@@ -150,7 +150,7 @@ const Courses = () => {
                     <div className="grid grid-cols-2 gap-3">
                       {course.subjects.map((subject, idx) => (
                         <div key={idx} className="text-sm text-gray-600 flex items-center bg-gray-50 rounded-lg px-3 py-2">
-                          <svg className="w-4 h-4 text-orange-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                          <svg className="w-4 h-4 text-red-800 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                           </svg>
                           <span className="truncate">{subject}</span>
@@ -161,14 +161,14 @@ const Courses = () => {
                   
                   <div className="border-t border-gray-100 pt-6">
                     <h4 className="font-semibold text-gray-900 mb-4 flex items-center">
-                      <svg className="w-5 h-5 text-orange-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-5 h-5 text-red-800 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
                       </svg>
                       Key Features
                     </h4>
                     <div className="flex flex-wrap gap-2">
                       {course.features.map((feature, idx) => (
-                        <span key={idx} className="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-medium">
+                        <span key={idx} className="bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full text-sm font-medium">
                           {feature}
                         </span>
                       ))}
@@ -185,7 +185,7 @@ const Courses = () => {
       <div className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">World-Class Facilities</h2>
+            <h2 className="text-4xl font-bold text-yellow-500 mb-6">World-Class Facilities</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Our state-of-the-art facilities provide the perfect environment for learning and growth
             </p>
@@ -202,12 +202,12 @@ const Courses = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60"></div>
                   <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
-                    <div className="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center text-white group-hover:bg-orange-700 transition-colors duration-300 shadow-xl">
+                    <div className="w-16 h-16 bg-red-800 rounded-full flex items-center justify-center text-white group-hover:bg-orange-700 transition-colors duration-300 shadow-xl">
                       {facility.icon}
                     </div>
                   </div>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-orange-600 transition-colors duration-300">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-yellow-500 transition-colors duration-300">
                   {facility.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed">{facility.description}</p>
@@ -221,7 +221,7 @@ const Courses = () => {
       <div className="py-20 bg-gradient-to-br from-gray-50 to-orange-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Why Choose Our Academic Programs?</h2>
+            <h2 className="text-4xl font-bold text-red-800 mb-6">Why Choose Our Academic Programs?</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Experience the difference with our comprehensive approach to education
             </p>
@@ -229,7 +229,7 @@ const Courses = () => {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center group">
-              <div className="w-20 h-20 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-xl">
+              <div className="w-20 h-20 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-xl">
                 <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
@@ -275,7 +275,7 @@ const Courses = () => {
       <div className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Student Success Stories</h2>
+            <h2 className="text-4xl font-bold text-yellow-500 mb-6">Student Success Stories</h2>
             <p className="text-lg text-gray-600">Hear from our graduates who have achieved excellence</p>
           </div>
           
@@ -335,22 +335,22 @@ const Courses = () => {
       </div>
 
       {/* CTA Section */}
-      <div className="relative py-20 bg-gradient-to-r from-orange-600 to-orange-800 overflow-hidden">
+      <div className="relative py-20 bg-gradient-to-r from-yellow-600 to-yellow-800 overflow-hidden">
         <img 
           src="https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
           alt="Students studying" 
           className="absolute inset-0 w-full h-full object-cover opacity-10"
         />
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-white mb-6">Ready to Begin Your Educational Journey?</h2>
-          <p className="text-xl text-orange-100 mb-10 leading-relaxed">
+          <h2 className="text-4xl font-bold text-red-800 mb-6">Ready to Begin Your Educational Journey?</h2>
+          <p className="text-xl text-red-100 mb-10 leading-relaxed">
             Choose the program that aligns with your goals and start building your future today with our comprehensive academic programs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-orange-600 px-10 py-4 rounded-xl font-semibold text-lg hover:bg-gray-100 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1">
+            <button className="bg-white text-red-800 px-10 py-4 rounded-xl font-semibold text-lg hover:bg-gray-100 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1">
               Apply Now
             </button>
-            <button className="border-2 border-white text-white px-10 py-4 rounded-xl font-semibold text-lg hover:bg-white hover:text-orange-600 transition-all duration-300 transform hover:-translate-y-1">
+            <button className="border-2 border-white text-white px-10 py-4 rounded-xl font-semibold text-lg hover:bg-white hover:text-red-800 transition-all duration-300 transform hover:-translate-y-1">
               Download Brochure
             </button>
           </div>

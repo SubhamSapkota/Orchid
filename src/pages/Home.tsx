@@ -5,41 +5,41 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Banner Section with Parallax Effect */}
-      <div className="relative h-screen bg-gradient-to-br from-orange-600 via-orange-700 to-orange-900 overflow-hidden">
+      <div className="relative h-screen bg-gradient-to-br from-red-600 via-red-700 to-red-900 overflow-hidden">
         {/* Background Image with Parallax */}
         <div className="absolute inset-0 transform scale-110">
           <img 
-            src="https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1" 
-            alt="Students in modern classroom" 
-            className="w-full h-full object-cover opacity-40 animate-pulse"
+            src="/WhatsApp Image 2025-07-18 at 17.14.47.jpeg" 
+            alt="Students in asembly" 
+            className="w-full h-full object-cover opacity-70 animate-pulse"
           />
         </div>
         
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-orange-900/40 to-black/60"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-red-900/40 to-black/60"></div>
         
         {/* Floating Elements */}
-        <div className="absolute top-20 left-10 w-32 h-32 bg-orange-400/20 rounded-full blur-xl animate-bounce"></div>
+        <div className="absolute top-20 left-10 w-32 h-32 bg-red-400/20 rounded-full blur-xl animate-bounce"></div>
         <div className="absolute bottom-32 right-16 w-24 h-24 bg-white/10 rounded-full blur-lg animate-pulse"></div>
-        <div className="absolute top-1/3 right-1/4 w-16 h-16 bg-orange-300/30 rounded-full blur-md animate-ping"></div>
+        <div className="absolute top-1/3 right-1/4 w-16 h-16 bg-red-300/30 rounded-full blur-md animate-ping"></div>
         
         {/* Hero Content */}
         <div className="relative z-10 flex items-center justify-center h-full text-center px-4">
           <div className="max-w-5xl transform transition-all duration-1000 ease-out">
             <div className="mb-8 animate-fade-in-up">
               <h1 className="text-6xl md:text-8xl font-bold text-white mb-6 leading-tight tracking-tight">
-                <span className="bg-gradient-to-r from-white via-orange-100 to-white bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-white via-yellow-100 to-white bg-clip-text text-transparent">
                   Welcome to
                 </span>
                 <br />
-                <span className="bg-gradient-to-r from-orange-200 via-white to-orange-200 bg-clip-text text-transparent animate-pulse">
+                <span className="bg-gradient-to-r from-yellow-200 via-white to-yellow-200 bg-clip-text text-transparent animate-pulse">
                   Orchid English Secondary School
                 </span>
               </h1>
             </div>
             
             <div className="mb-12 animate-fade-in-up animation-delay-300">
-              <p className="text-2xl md:text-3xl text-orange-100 mb-4 font-light tracking-wide">
+              <p className="text-2xl md:text-3xl text-yellow-100 mb-4 font-light tracking-wide">
                 Nurturing Excellence, Building Futures
               </p>
               <p className="text-lg md:text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
@@ -48,10 +48,10 @@ const Home = () => {
             </div>
             
             <div className="animate-fade-in-up animation-delay-600">
-             <Link to="/courses"> <button className="group relative bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-12 py-4 rounded-full text-lg font-semibold transition-all duration-500 shadow-2xl hover:shadow-orange-500/25 transform hover:-translate-y-2 hover:scale-105">
+             <Link to="/courses"> <button className="group relative bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white px-12 py-4 rounded-full text-lg font-semibold transition-all duration-500 shadow-2xl hover:shadow-red-500/25 transform hover:-translate-y-2 hover:scale-105">
                 <span className="relative z-10">Discover Our Programs</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="absolute -inset-1 bg-gradient-to-r from-orange-400 to-orange-600 rounded-full blur opacity-30 group-hover:opacity-60 transition-opacity duration-300"></div>
+                <div className="absolute -inset-1 bg-gradient-to-r from-red-400 to-red-600 rounded-full blur opacity-30 group-hover:opacity-60 transition-opacity duration-300"></div>
               </button>
               </Link>
             </div>
@@ -71,19 +71,19 @@ const Home = () => {
       <div className="py-24 bg-gradient-to-br from-gray-50 via-white to-gray-100 relative overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-orange-500 to-transparent"></div>
+          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-red-500 to-transparent"></div>
         </div>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-20">
             <div className="inline-block mb-6">
-              <span className="bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent text-lg font-semibold tracking-wide uppercase">
+              <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent text-lg font-semibold tracking-wide uppercase">
                 Excellence in Education
               </span>
             </div>
-            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-8 leading-tight">
+            <h2 className="text-5xl md:text-6xl font-bold text-red-700 mb-8 leading-tight">
               Why Choose 
-              <span className="bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent"> Orchid</span>?
+              <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent"> Orchid?</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               We provide a comprehensive education that prepares students for success in academics, character, and life through innovative teaching and modern facilities.
@@ -93,10 +93,10 @@ const Home = () => {
           <div className="grid md:grid-cols-3 gap-12">
             {/* Feature 1 */}
             <div className="group relative bg-white p-10 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-700 transform hover:-translate-y-4 hover:rotate-1">
-              <div className="absolute inset-0 bg-gradient-to-br from-orange-500/5 to-orange-600/10 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-red-500/5 to-red-600/10 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               
               <div className="relative z-10">
-                <div className="w-20 h-20 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-500 shadow-lg">
+                <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-500 shadow-lg">
                   <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                   </svg>
@@ -165,17 +165,17 @@ const Home = () => {
       <div className="py-24 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
         {/* Animated Background Elements */}
         <div className="absolute inset-0">
-          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-orange-500/10 to-transparent"></div>
-          <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-orange-500/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-red-500/10 to-transparent"></div>
+          <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-red-500/5 rounded-full blur-3xl animate-pulse"></div>
           <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl animate-pulse animation-delay-1000"></div>
         </div>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid md:grid-cols-4 gap-12 text-center">
             {[
-              { number: "1,200+", label: "Students", icon: "👥", color: "from-orange-400 to-orange-600" },
+              { number: "1000+", label: "Students", icon: "👥", color: "from-red-400 to-red-600" },
               { number: "85+", label: "Teachers", icon: "👨‍🏫", color: "from-blue-400 to-blue-600" },
-              { number: "95%", label: "Graduation Rate", icon: "🎓", color: "from-green-400 to-green-600" },
+              { number: "100%", label: "Graduation Rate", icon: "🎓", color: "from-green-400 to-green-600" },
               { number: "25+", label: "Years of Excellence", icon: "🏆", color: "from-purple-400 to-purple-600" }
             ].map((stat, index) => (
               <div key={index} className="group transform hover:scale-110 transition-all duration-500">
@@ -210,13 +210,13 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-20">
             <div className="inline-block mb-6">
-              <span className="bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent text-lg font-semibold tracking-wide uppercase">
+              <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent text-lg font-semibold tracking-wide uppercase">
                 Community Voices
               </span>
             </div>
-            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-8">
+            <h2 className="text-5xl md:text-6xl font-bold text-red-700 mb-8">
               What Our 
-              <span className="bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">Community</span> Says
+              <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent">Community</span> Says
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Hear from students, parents, and alumni about their transformative Orchid experience.
@@ -226,21 +226,21 @@ const Home = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
             {[
               {
-                name: "Sarah Johnson",
-                role: "Class of 2023",
+                name: "Bhawana Paudel",
+                role: "Class of 2016",
                 image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=1",
                 quote: "Orchid Secondary School gave me the foundation I needed to succeed in university. The teachers truly care about each student's success and go above and beyond.",
                 gradient: "from-pink-500 to-rose-500"
               },
               {
-                name: "Michael Chen",
+                name: " Anjalee Paudel",
                 role: "Parent",
                 image: "https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=1",
                 quote: "The holistic approach to education at Orchid has helped my daughter develop both academically and personally. The results speak for themselves.",
                 gradient: "from-blue-500 to-cyan-500"
               },
               {
-                name: "Dr. Emily Rodriguez",
+                name: "Anushka Paudel",
                 role: "Science Teacher",
                 image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=1",
                 quote: "Teaching at Orchid has been incredibly rewarding. The supportive environment allows both students and teachers to thrive and innovate.",
@@ -287,7 +287,7 @@ const Home = () => {
       </div>
 
       {/* Enhanced CTA Section */}
-      <div className="relative py-24 bg-gradient-to-br from-orange-600 via-orange-700 to-orange-800 overflow-hidden">
+      <div className="relative py-24 bg-gradient-to-br from-yellow-600 via-yellow-700 to-yellow-800 overflow-hidden">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0">
           <img 
@@ -295,20 +295,20 @@ const Home = () => {
             alt="Students celebrating" 
             className="w-full h-full object-cover opacity-20"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-orange-900/80 via-orange-800/60 to-orange-900/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-red-900/80 via-red-800/60 to-red-900/80"></div>
         </div>
         
         {/* Floating Elements */}
         <div className="absolute top-10 left-10 w-32 h-32 bg-white/10 rounded-full blur-xl animate-float"></div>
-        <div className="absolute bottom-10 right-10 w-24 h-24 bg-orange-300/20 rounded-full blur-lg animate-float animation-delay-1000"></div>
+        <div className="absolute bottom-10 right-10 w-24 h-24 bg-yellow-300/20 rounded-full blur-lg animate-float animation-delay-1000"></div>
         
         <div className="max-w-5xl mx-auto text-center px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="mb-8">
-            <h2 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
+            <h2 className="text-5xl md:text-6xl font-bold text-yellow-500 mb-6 leading-tight">
               Ready to Join Our 
-              <span className="bg-gradient-to-r from-orange-200 to-white bg-clip-text text-transparent">
-                Community
-              </span>?
+              <span className="bg-gradient-to-r from-red-600 to-white bg-clip-text text-transparent">
+                Community?
+              </span>
             </h2>
             <p className="text-2xl text-orange-100 mb-4 font-light">
               Take the first step towards an exceptional education
@@ -319,14 +319,14 @@ const Home = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <Link to="/admission"><button className="group relative bg-white text-orange-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all duration-500 shadow-2xl hover:shadow-white/25 transform hover:-translate-y-2 hover:scale-105">
+            <Link to="/admission"><button className="group relative bg-white text-yellow-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all duration-500 shadow-2xl hover:shadow-white/25 transform hover:-translate-y-2 hover:scale-105">
               <span className="relative z-10">Apply Now</span>
-              <div className="absolute inset-0 bg-gradient-to-r from-orange-100 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-yellow-100 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </button>
             </Link>
             
             <Link to="/contact">
-            <button className="group relative border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-orange-600 transition-all duration-500 transform hover:-translate-y-2 hover:scale-105">
+            <button className="group relative border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-yellow-600 transition-all duration-500 transform hover:-translate-y-2 hover:scale-105">
               <span className="relative z-10">Schedule a Visit</span>
               <div className="absolute inset-0 bg-white/10 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </button>

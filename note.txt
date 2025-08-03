@@ -1,0 +1,4 @@
+// amber-400 or amber-500
+// yellow-500
+main color:  red-800 or 900
+rose-800 or 900

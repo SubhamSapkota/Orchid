@@ -149,7 +149,7 @@ const PlusTwoCourses = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section with Background Image */}
-      <div className="relative h-96 bg-gradient-to-r from-orange-600 to-orange-800 overflow-hidden">
+      <div className="relative h-96 bg-gradient-to-r from-red-600 to-red-800 overflow-hidden">
         <img 
           src="https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
           alt="Higher secondary students" 
@@ -158,10 +158,10 @@ const PlusTwoCourses = () => {
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <div className="relative z-10 flex items-center justify-center h-full text-center px-4">
           <div className="max-w-4xl">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold text-yellow-500 mb-4">
               +2 Higher Secondary Program
             </h1>
-            <p className="text-xl text-orange-100 max-w-3xl mx-auto">
+            <p className="text-xl text-yellow-100 max-w-3xl mx-auto">
               Specialized education streams preparing students for university and professional careers with expert guidance and modern facilities
             </p>
           </div>
@@ -172,7 +172,7 @@ const PlusTwoCourses = () => {
       <div className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Choose Your Academic Stream</h2>
+            <h2 className="text-4xl font-bold text-red-800 mb-6">Choose Your Academic Stream</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Our +2 program offers three specialized streams designed to align with your career aspirations 
               and academic interests, providing comprehensive preparation for higher education.
@@ -205,7 +205,7 @@ const PlusTwoCourses = () => {
                   
                   <div className="mb-6">
                     <h4 className="font-semibold text-gray-900 mb-4 flex items-center">
-                      <svg className="w-5 h-5 text-orange-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-5 h-5 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                       </svg>
                       Core Subjects
@@ -213,7 +213,7 @@ const PlusTwoCourses = () => {
                     <div className="grid grid-cols-1 gap-3">
                       {stream.subjects.map((subject, idx) => (
                         <div key={idx} className="text-sm text-gray-600 flex items-center bg-gray-50 rounded-lg px-3 py-2">
-                          <svg className="w-4 h-4 text-orange-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                          <svg className="w-4 h-4 text-yellow-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                           </svg>
                           <span>{subject}</span>
@@ -224,14 +224,14 @@ const PlusTwoCourses = () => {
                   
                   <div className="border-t border-gray-100 pt-6">
                     <h4 className="font-semibold text-gray-900 mb-4 flex items-center">
-                      <svg className="w-5 h-5 text-orange-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-5 h-5 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                       </svg>
                       Career Opportunities
                     </h4>
                     <div className="flex flex-wrap gap-2">
                       {stream.careerPaths.map((career, idx) => (
-                        <span key={idx} className="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-xs font-medium">
+                        <span key={idx} className="bg-red-100 text-yellow-500 px-3 py-1 rounded-full text-xs font-medium">
                           {career}
                         </span>
                       ))}
@@ -248,7 +248,7 @@ const PlusTwoCourses = () => {
       <div className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">World-Class Facilities</h2>
+            <h2 className="text-4xl font-bold text-yellow-500 mb-6">World-Class Facilities</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Our +2 program is supported by modern facilities and resources to enhance learning and prepare students for success.
             </p>
@@ -265,12 +265,12 @@ const PlusTwoCourses = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60"></div>
                   <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
-                    <div className="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center text-white group-hover:bg-orange-700 transition-colors duration-300 shadow-xl">
+                    <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center text-white group-hover:bg-red-700 transition-colors duration-300 shadow-xl">
                       {facility.icon}
                     </div>
                   </div>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-orange-600 transition-colors duration-300">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-red-600 transition-colors duration-300">
                   {facility.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed">{facility.description}</p>
@@ -284,7 +284,7 @@ const PlusTwoCourses = () => {
       <div className="py-20 bg-gradient-to-br from-gray-50 to-orange-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Student Success Stories</h2>
+            <h2 className="text-4xl font-bold text-red-800 mb-6">Student Success Stories</h2>
             <p className="text-lg text-gray-600">Hear from our graduates who have achieved excellence in their chosen fields</p>
           </div>
           
@@ -298,8 +298,8 @@ const PlusTwoCourses = () => {
                     className="w-16 h-16 rounded-full object-cover mr-4 border-4 border-white shadow-lg"
                   />
                   <div>
-                    <h4 className="font-semibold text-gray-900 text-lg">{story.name}</h4>
-                    <p className="text-sm text-orange-600 font-medium">{story.stream}</p>
+                    <h4 className="font-semibold text-yellow-500 text-lg">{story.name}</h4>
+                    <p className="text-sm text-red-800 font-medium">{story.stream}</p>
                     <p className="text-xs text-gray-600">{story.achievement}</p>
                   </div>
                 </div>
@@ -314,7 +314,7 @@ const PlusTwoCourses = () => {
       <div className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Admission Process</h2>
+            <h2 className="text-4xl font-bold text-yellow-500 mb-6">Admission Process</h2>
             <p className="text-lg text-gray-600">Simple steps to join our +2 program</p>
           </div>
           
@@ -327,7 +327,7 @@ const PlusTwoCourses = () => {
                     alt={requirement.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-orange-600 to-transparent opacity-80"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-red-600 to-transparent opacity-80"></div>
                   <div className="absolute bottom-4 left-4 right-4 text-white">
                     <div className="flex items-center mb-2">
                       <div className="w-10 h-10 bg-white bg-opacity-20 rounded-lg flex items-center justify-center mr-3">
@@ -350,13 +350,13 @@ const PlusTwoCourses = () => {
       <div className="py-20 bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Why Choose Our +2 Program?</h2>
+            <h2 className="text-4xl font-bold text-red-800 mb-6">Why Choose Our +2 Program?</h2>
             <p className="text-lg text-gray-600">Experience excellence in higher secondary education</p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center group">
-              <div className="w-20 h-20 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-xl">
+              <div className="w-20 h-20 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-xl">
                 <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
@@ -399,22 +399,22 @@ const PlusTwoCourses = () => {
       </div>
 
       {/* CTA Section */}
-      <div className="relative py-20 bg-gradient-to-r from-orange-600 to-orange-800 overflow-hidden">
+      <div className="relative py-20 bg-gradient-to-r from-yellow-600 to-yellow-800 overflow-hidden">
         <img 
           src="https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
           alt="Students studying" 
           className="absolute inset-0 w-full h-full object-cover opacity-10"
         />
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-white mb-6">Ready to Shape Your Future?</h2>
-          <p className="text-xl text-orange-100 mb-10 leading-relaxed">
+          <h2 className="text-4xl font-bold text-red-800 mb-6">Ready to Shape Your Future?</h2>
+          <p className="text-xl text-red-100 mb-10 leading-relaxed">
             Choose your stream and take the next step towards your dream career with our comprehensive +2 program designed for success.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-orange-600 px-10 py-4 rounded-xl font-semibold text-lg hover:bg-gray-100 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1">
+            <button className="bg-white text-red-600 px-10 py-4 rounded-xl font-semibold text-lg hover:bg-gray-100 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1">
               Apply for +2
             </button>
-            <button className="border-2 border-white text-white px-10 py-4 rounded-xl font-semibold text-lg hover:bg-white hover:text-orange-600 transition-all duration-300 transform hover:-translate-y-1">
+            <button className="border-2 border-white text-white px-10 py-4 rounded-xl font-semibold text-lg hover:bg-white hover:text-red-600 transition-all duration-300 transform hover:-translate-y-1">
               Download Prospectus
             </button>
           </div>

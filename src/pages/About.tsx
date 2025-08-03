@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Enhanced Header Section */}
-      <div className="relative h-screen bg-gradient-to-br from-orange-600 via-orange-700 to-orange-900 overflow-hidden">
+      <div className="relative h-screen bg-gradient-to-br from-red-700 via-red-800 to-red-900 overflow-hidden">
         {/* Background Image with Parallax */}
         <div className="absolute inset-0 transform scale-110">
           <img 
@@ -18,26 +18,26 @@ const About = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-orange-900/40 to-black/60"></div>
         
         {/* Floating Elements */}
-        <div className="absolute top-20 left-10 w-32 h-32 bg-orange-400/20 rounded-full blur-xl animate-float"></div>
+        <div className="absolute top-20 left-10 w-32 h-32 bg-yellow-400/20 rounded-full blur-xl animate-float"></div>
         <div className="absolute bottom-32 right-16 w-24 h-24 bg-white/10 rounded-full blur-lg animate-pulse"></div>
-        <div className="absolute top-1/3 right-1/4 w-16 h-16 bg-orange-300/30 rounded-full blur-md animate-ping"></div>
+        <div className="absolute top-1/3 right-1/4 w-16 h-16 bg-yellow-300/30 rounded-full blur-md animate-ping"></div>
         
         <div className="relative z-10 flex items-center justify-center h-full text-center px-4">
           <div className="max-w-5xl transform transition-all duration-1000 ease-out">
             <div className="mb-8 animate-fade-in-up">
               <h1 className="text-6xl md:text-8xl font-bold text-white mb-6 leading-tight tracking-tight">
-                <span className="bg-gradient-to-r from-white via-orange-100 to-white bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-white via-yellow-100 to-white bg-clip-text text-transparent">
                   About
                 </span>
                 <br />
-                <span className="bg-gradient-to-r from-orange-200 via-white to-orange-200 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-yellow-200 via-white to-yellow-200 bg-clip-text text-transparent">
                   Orchid English Secondary School
                 </span>
               </h1>
             </div>
             
             <div className="mb-12 animate-fade-in-up animation-delay-300">
-              <p className="text-2xl md:text-3xl text-orange-100 mb-4 font-light tracking-wide">
+              <p className="text-2xl md:text-3xl text-yellow-100 mb-4 font-light tracking-wide">
                 Nurturing Excellence, Building Futures
               </p>
               <p className="text-lg md:text-xl text-white/80 max-w-4xl mx-auto leading-relaxed">
@@ -65,13 +65,13 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-20">
             <div className="inline-block mb-6">
-              <span className="bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent text-lg font-semibold tracking-wide uppercase">
+              <span className="bg-gradient-to-r from-yellow-400 to-yellow-500 bg-clip-text text-transparent text-lg font-semibold tracking-wide uppercase">
                 Our Foundation
               </span>
             </div>
-            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-8">
+            <h2 className="text-5xl md:text-6xl font-bold text-red-700 mb-8">
               Mission & 
-              <span className="bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">Vision</span>
+              <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent">Vision</span>
             </h2>
           </div>
           
@@ -79,16 +79,16 @@ const About = () => {
             {/* Mission */}
             <div className="group relative">
               <div className="bg-white p-12 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-700 transform hover:-translate-y-4 hover:rotate-1 relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-orange-500/5 to-orange-600/10 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/5 to-yellow-600/10 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 
                 <div className="relative z-10">
-                  <div className="w-20 h-20 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-500 shadow-lg">
+                  <div className="w-20 h-20 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-500 shadow-lg">
                     <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
                   </div>
                   
-                  <h3 className="text-3xl font-bold text-gray-900 mb-6 group-hover:text-orange-600 transition-colors duration-300">
+                  <h3 className="text-3xl font-bold text-gray-900 mb-6 group-hover:text-yellow-600 transition-colors duration-300">
                     Our Mission
                   </h3>
                   <p className="text-gray-600 text-lg leading-relaxed">
@@ -145,13 +145,13 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-20">
             <div className="inline-block mb-6">
-              <span className="bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent text-lg font-semibold tracking-wide uppercase">
+              <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent text-lg font-semibold tracking-wide uppercase">
                 Our Journey
               </span>
             </div>
-            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-8">
+            <h2 className="text-5xl md:text-6xl font-bold text-red-700 mb-8">
               Our 
-              <span className="bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">Story</span>
+              <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent">Story</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
               Founded with a vision to transform education, Orchid Secondary School has been a beacon of learning excellence for over two decades.
@@ -179,11 +179,11 @@ const About = () => {
             <div className="space-y-8">
               <div className="group">
                 <div className="flex items-start space-x-4">
-                  <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                  <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                     <span className="text-white font-bold text-xl">25+</span>
                   </div>
                   <div>
-                    <h4 className="text-2xl font-bold text-gray-900 mb-2 group-hover:text-orange-600 transition-colors duration-300">
+                    <h4 className="text-2xl font-bold text-gray-900 mb-2 group-hover:text-yellow-600 transition-colors duration-300">
                       Years of Excellence
                     </h4>
                     <p className="text-gray-600 leading-relaxed">
@@ -233,7 +233,7 @@ const About = () => {
       </div>
 
       {/* Enhanced Values Section */}
-      <div className="py-24 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
+      <div className="py-24 bg-gradient-to-br from-yellow-600 via-yellow-800 to-yellow-900 relative overflow-hidden">
         {/* Animated Background Elements */}
         <div className="absolute inset-0">
           <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-orange-500/10 rounded-full blur-3xl animate-pulse"></div>
@@ -243,13 +243,13 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-20">
             <div className="inline-block mb-6">
-              <span className="bg-gradient-to-r from-orange-400 to-orange-500 bg-clip-text text-transparent text-lg font-semibold tracking-wide uppercase">
+              <span className="bg-gradient-to-r from-red-700 to-red-800 bg-clip-text text-transparent text-lg font-semibold tracking-wide uppercase">
                 Our Foundation
               </span>
             </div>
-            <h2 className="text-5xl md:text-6xl font-bold text-white mb-8">
+            <h2 className="text-5xl md:text-6xl font-bold text-yellow-500   mb-8">
               Core 
-              <span className="bg-gradient-to-r from-orange-400 to-orange-500 bg-clip-text text-transparent">Values</span>
+              <span className="bg-gradient-to-r from-red-700 to-red-800 bg-clip-text text-transparent">Values</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               The principles that guide everything we do and shape our educational philosophy
@@ -266,7 +266,7 @@ const About = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                   </svg>
                 ),
-                gradient: "from-orange-500 to-orange-600"
+                gradient: "from-yellow-500 to-yellow-600"
               },
               {
                 title: "Compassion",
@@ -324,13 +324,13 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-20">
             <div className="inline-block mb-6">
-              <span className="bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent text-lg font-semibold tracking-wide uppercase">
+              <span className="bg-gradient-to-r from-yellow-600 to-yellow-700 bg-clip-text text-transparent text-lg font-semibold tracking-wide uppercase">
                 Meet Our Leaders
               </span>
             </div>
-            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-8">
+            <h2 className="text-5xl md:text-6xl font-bold text-red-700 mb-8">
               Leadership 
-              <span className="bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">Team</span>
+              <span className="bg-gradient-to-r from-yellow-600 to-yellow-700 bg-clip-text text-transparent">Team</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Meet the dedicated professionals leading our institution with vision, passion, and commitment to excellence
@@ -344,7 +344,7 @@ const About = () => {
                 position: "Principal",
                 image: "https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1",
                 description: "With over 20 years in education, Dr. Sharma leads our institution with vision and dedication to student success.",
-                gradient: "from-orange-500 to-orange-600"
+                gradient: "from-yellow-500 to-yellow-600"
               },
               {
                 name: "Mr. Gaurav Baral",
@@ -379,7 +379,7 @@ const About = () => {
                 </div>
                 
                 <div className="pt-8">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-orange-600 transition-colors duration-300">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-red-800 transition-colors duration-300">
                     {leader.name}
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-lg">
@@ -393,7 +393,7 @@ const About = () => {
       </div>
 
       {/* Enhanced CTA Section */}
-      <div className="relative py-24 bg-gradient-to-br from-orange-600 via-orange-700 to-orange-800 overflow-hidden">
+      <div className="relative py-24 bg-gradient-to-br from-yellow-600 via-yellow-700 to-yellow-800 overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">
           <img 
@@ -401,18 +401,18 @@ const About = () => {
             alt="Students celebrating graduation" 
             className="w-full h-full object-cover opacity-20"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-orange-900/80 via-orange-800/60 to-orange-900/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-red-900/80 via-red-800/60 to-red-900/80"></div>
         </div>
         
         {/* Floating Elements */}
         <div className="absolute top-10 left-10 w-32 h-32 bg-white/10 rounded-full blur-xl animate-float"></div>
-        <div className="absolute bottom-10 right-10 w-24 h-24 bg-orange-300/20 rounded-full blur-lg animate-float animation-delay-1000"></div>
+        <div className="absolute bottom-10 right-10 w-24 h-24 bg-red-300/20 rounded-full blur-lg animate-float animation-delay-1000"></div>
         
         <div className="max-w-5xl mx-auto text-center px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="mb-8">
-            <h2 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
+            <h2 className="text-5xl md:text-6xl font-bold text-yellow-500 mb-6 leading-tight">
               Join Our 
-              <span className="bg-gradient-to-r from-orange-200 to-white bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-red-500 to-white bg-clip-text text-transparent">
                 Community
               </span>
             </h2>
@@ -425,12 +425,12 @@ const About = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <button className="group relative bg-white text-orange-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all duration-500 shadow-2xl hover:shadow-white/25 transform hover:-translate-y-2 hover:scale-105">
+            <button className="group relative bg-white text-yellow-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all duration-500 shadow-2xl hover:shadow-white/25 transform hover:-translate-y-2 hover:scale-105">
               <span className="relative z-10">Apply Now</span>
-              <div className="absolute inset-0 bg-gradient-to-r from-orange-100 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-yellow-100 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </button>
             
-            <button className="group relative border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-orange-600 transition-all duration-500 transform hover:-translate-y-2 hover:scale-105">
+            <button className="group relative border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-yellow-600 transition-all duration-500 transform hover:-translate-y-2 hover:scale-105">
               <span className="relative z-10">Contact Us</span>
               <div className="absolute inset-0 bg-white/10 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </button>

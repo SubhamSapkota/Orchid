@@ -187,12 +187,12 @@ const Notice = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header Section */}
-      <div className="bg-gradient-to-r from-orange-600 to-orange-800 py-16">
+      <div className="bg-gradient-to-r from-red-900 to-red-800 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-yellow-500 mb-4">
             School Notices
           </h1>
-          <p className="text-xl text-orange-100 max-w-3xl mx-auto">
+          <p className="text-xl text-yellow-100 max-w-3xl mx-auto">
             Stay updated with the latest announcements, exam schedules, results, and important information
           </p>
         </div>
@@ -210,8 +210,8 @@ const Notice = () => {
                   onClick={() => setSelectedCategory(category)}
                   className={`px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200 ${
                     selectedCategory === category
-                      ? 'bg-orange-600 text-white'
-                      : 'bg-white text-gray-700 hover:bg-orange-100 hover:text-orange-600 border border-gray-300'
+                      ? 'bg-yellow-600 text-white'
+                      : 'bg-white text-gray-700 hover:bg-yellow-100 hover:text-yellow-600 border border-gray-300'
                   }`}
                 >
                   {category}
@@ -293,7 +293,7 @@ const Notice = () => {
 
           {/* Load More Button */}
           <div className="text-center mt-12">
-            <button className="bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors duration-300 shadow-lg hover:shadow-xl">
+            <button className="bg-yellow-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors duration-300 shadow-lg hover:shadow-xl" onClick={()=>{setSelectedCategory("All")}}>
               Load More Notices
             </button>
           </div>
@@ -304,21 +304,21 @@ const Notice = () => {
       <div className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Quick Links</h2>
+            <h2 className="text-3xl font-bold text-red-800 mb-4">Quick Links</h2>
             <p className="text-lg text-gray-600">Access important resources and information</p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {quickLinks.map((link, index) => (
               <div key={index} className="text-center group cursor-pointer" onClick={() => handleQuickLinkClick(link.url)}>
-                <div className="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-700 transition-colors duration-300 group-hover:scale-110 transform">
+                <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-yellow-700 transition-colors duration-300 group-hover:scale-110 transform">
                   {link.icon}
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-orange-600 transition-colors duration-300">
+                <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-red-600 transition-colors duration-300">
                   {link.title}
                 </h3>
                 <p className="text-gray-600 text-sm mb-4">{link.description}</p>
-                <div className="flex items-center justify-center text-orange-600 group-hover:text-orange-700 transition-colors duration-300">
+                <div className="flex items-center justify-center text-red-600 group-hover:text-red-700 transition-colors duration-300">
                   <span className="text-sm font-medium mr-2">Access Files</span>
                   <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -329,14 +329,14 @@ const Notice = () => {
           </div>
           
           {/* Additional Info */}
-          <div className="mt-12 bg-orange-50 border border-orange-200 rounded-lg p-6">
+          <div className="mt-12 bg-yellow-50 border border-yellow-200 rounded-lg p-6">
             <div className="flex items-start">
-              <svg className="w-6 h-6 text-orange-600 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-6 h-6 text-red-600 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               <div>
-                <h4 className="text-lg font-semibold text-orange-800 mb-2">How to Access Documents</h4>
-                <p className="text-orange-700 text-sm leading-relaxed">
+                <h4 className="text-lg font-semibold text-red-800 mb-2">How to Access Documents</h4>
+                <p className="text-red-700 text-sm leading-relaxed">
                   Click on any of the quick links above to access our Google Drive folders containing the latest documents. 
                   You may need to request access for some restricted folders. For any issues accessing documents, 
                   please contact the school office at <span className="font-medium">info@orchidschool.edu.np</span>
@@ -348,19 +348,19 @@ const Notice = () => {
       </div>
 
       {/* CTA Section */}
-      <div className="py-16 bg-gradient-to-r from-orange-600 to-orange-800">
+      <div className="py-16 bg-gradient-to-r from-yellow-600 to-yellow-800">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-white mb-4">Stay Connected</h2>
-          <p className="text-xl text-orange-100 mb-8">
+          <h2 className="text-3xl font-bold text-red-800 mb-4">Stay Connected</h2>
+          <p className="text-xl text-red-100 mb-8">
             Subscribe to our notifications to receive instant updates about important notices and announcements.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
             <input
               type="email"
               placeholder="Enter your email address"
-              className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+              className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500"
             />
-            <button className="bg-white text-orange-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-300">
+            <button className="bg-white text-red-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-300">
               Subscribe
             </button>
           </div>
